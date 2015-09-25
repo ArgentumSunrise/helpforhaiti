@@ -15,23 +15,24 @@ body {
     width: 100%;
 }
 
-.outer {
-    height: 100%;
-    margin: 0 auto;
-    background-color: #ecf0f1;
+#nav-ctr {
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 #nav {
     background-color: #c0392b;
+    padding-left: 1vw;
     color: #ecf0f1;
     font-family: 'Open Sans', sans-serif;
     width: 100%;
 }
 
 .nav-item {
-    font-size: 2vh;
+    font-size: 1.5vw;
     display: table-cell;
-    padding: 3vh 3vw;
+    padding: 2.5vw 3vw;
     transition-duration: .3s;
     cursor: pointer;
     text-decoration: none;
@@ -42,10 +43,6 @@ body {
     color: #ecf0f1;
 }
 
-#nav-bottom {
-    z-index: 2;
-}
-
 .border-bottom {
     height: 1.5vh;
     display: table-cell;
@@ -54,17 +51,46 @@ body {
 }
 
 #bb0 {
-    width: 9.5vw;
+    width: 11.5vw;
 }
 
 #bb1 {
-    width: 14.7vw;
+    width: 15.3vw;
 }
 
 #bb2 {
-    width: 11.8vw;
+    width: 13.4vw;
 }
 
 #bb3 {
-    width: 12.4vw;
+    width: 13.7vw;
+}
+
+#home-slide1,
+#home-slide2 {
+    background-size: cover;
+    height: 70vw;
+    color: #ecf0f1;
+}
+
+#home-slide1 {
+    margin-top: 6vh;
+    background-image: url(imgs/syria-refugees.jpg);
+    /* source http://crooksandliars.com/files/primary_image/15/09/syria-refugees.jpg */
+}
+
+#home-slide2 {
+    background-image: url(imgs/syria-refugees2.jpg);
+    /* source http://graphics8.nytimes.com/packages/images/multimedia/bundles/projects/2013/RefugeeStory/ayriakurdrefs003.jpg */
+}
+
+.slide-txt {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20vw 10vw;
+    text-align: center;
+    font-size: 8vh;
+}
+
+#home-slide1 h1 span {
+    color: #e74c3c;
 }
