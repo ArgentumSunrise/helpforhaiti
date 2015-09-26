@@ -9,7 +9,6 @@
 html,
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
     color: #333;
     height: 100%;
     width: 100%;
@@ -24,19 +23,20 @@ body {
 
 #nav {
     background-color: #c0392b;
-    padding-left: 1vw;
     color: #ecf0f1;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     width: 100%;
+    letter-spacing: 2px;
 }
 
 .nav-item {
-    font-size: 1.5vw;
+    font-size: 20px;
     display: table-cell;
-    padding: 2.5vw 3vw;
     transition-duration: .3s;
     cursor: pointer;
     text-decoration: none;
+    width: 20%;
+    padding: 3% 2.5% 3% 2.5%;
 }
 
 .nav-item > a:hover,
@@ -67,20 +67,19 @@ body {
     width: 13.7vw;
 }
 
-#home-slide1,
-#home-slide2 {
+.home-slide1,
+.home-slide2 {
     background-size: cover;
-    height: 70vw;
+    height: 100%;
     color: #ecf0f1;
 }
 
-#home-slide1 {
-    margin-top: 6vh;
+.home-slide1 {
     background-image: url(imgs/syria-refugees.jpg);
     /* source http://crooksandliars.com/files/primary_image/15/09/syria-refugees.jpg */
 }
 
-#home-slide2 {
+.home-slide2 {
     background-image: url(imgs/syria-refugees2.jpg);
     /* source http://graphics8.nytimes.com/packages/images/multimedia/bundles/projects/2013/RefugeeStory/ayriakurdrefs003.jpg */
 }
@@ -91,24 +90,43 @@ body {
     font-size: 8vh;
 }
 
-#home-slide1 h1 span {
+.home-slide1 h1 span {
     color: #e74c3c;
 }
 
-#content {
-    padding-top: 8vh;
+.content {
+    padding: 50px 0 50px 0;
 }
 
-#content h1 {
-    font-size: 5vw;
+.content h1 {
+    font-size: 40px;
     margin-bottom: 4vh;
     color: #e74c3c;
 }
 
-#content p {
+.content p {
     font-family: Source Sans Pro;
-    font-size: 2.5vw;
-    padding: 0 15vw;
-    padding-bottom: 7.5vh;
-    line-height: 1.6;
+    font-size: 30px;
+    padding: 0 10% 0 10%;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+@media (max-width: 640px) {
+    .nav-item {
+        padding: 2% 2.5% 2% 2.5%;
+        width: 20%;
+        font-size: 12px;
+    }
+    .home-slide1, .home-slide2 {
+        height: 100%;
+        background-size: cover;
+    }
+    .slide-txt {
+        font-size: 30px;
+    }
+    .content p {
+        padding: 0 5% 0 5%;
+        font-size: 20px;
+    }
 }
