@@ -31,7 +31,7 @@ a {
     color: #ecf0f1;
     font-family: 'Raleway', sans-serif;
     width: 100%;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
 }
 
 .nav-item {
@@ -40,7 +40,7 @@ a {
     transition-duration: .3s;
     cursor: pointer;
     width: 20%;
-    padding: 3% 2.5% 3% 2.5%;
+    padding: 3% 2.5%;
 }
 
 .nav-item > a:hover,
@@ -56,19 +56,19 @@ a {
 }
 
 #bb0 {
-    width: 230px;
+    width: 220px;
 }
 
 #bb1 {
-    width: 260px;
+    width: 285px;
 }
 
 #bb2 {
-    width: 230px;
+    width: 240px;
 }
 
 #bb3 {
-    width: 240px;
+    width: 245px;
 }
 
 .home-slide {
