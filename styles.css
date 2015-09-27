@@ -15,6 +15,11 @@ body {
     text-align: center;
 }
 
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 #nav-ctr {
     position: fixed;
     width: 100%;
@@ -34,7 +39,6 @@ body {
     display: table-cell;
     transition-duration: .3s;
     cursor: pointer;
-    text-decoration: none;
     width: 20%;
     padding: 3% 2.5% 3% 2.5%;
 }
@@ -52,34 +56,38 @@ body {
 }
 
 #bb0 {
-    width: 11.5vw;
+    width: 230px;
 }
 
 #bb1 {
-    width: 15.3vw;
+    width: 260px;
 }
 
 #bb2 {
-    width: 13.4vw;
+    width: 230px;
 }
 
 #bb3 {
-    width: 13.7vw;
+    width: 240px;
 }
 
-.home-slide1,
-.home-slide2 {
+.home-slide {
     background-size: cover;
     height: 100%;
     color: #ecf0f1;
 }
 
-.home-slide1 {
+#home-slide1 {
     background-image: url(imgs/syria-refugees.jpg);
     /* source http://crooksandliars.com/files/primary_image/15/09/syria-refugees.jpg */
 }
 
-.home-slide2 {
+#home-slide2 {
+    background-image: url(imgs/syrian-war.jpg)
+    /* source http://i.huffpost.com/gen/1346729/images/o-SYRIA-WAR-facebook.jpg */
+}
+
+#home-slide3 {
     background-image: url(imgs/syria-refugees2.jpg);
     /* source http://graphics8.nytimes.com/packages/images/multimedia/bundles/projects/2013/RefugeeStory/ayriakurdrefs003.jpg */
 }
@@ -90,7 +98,7 @@ body {
     font-size: 8vh;
 }
 
-.home-slide1 h1 span {
+#home-slide1 h1 span {
     color: #e74c3c;
 }
 
@@ -99,9 +107,11 @@ body {
 }
 
 .content h1 {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 4vh;
     color: #e74c3c;
+    margin-top: 5vh;
+    font-family: Raleway;
 }
 
 .content p {
@@ -112,21 +122,72 @@ body {
     text-align: justify;
 }
 
+.content a {
+    color: #e74c3c;
+}
+
+.content a:visited,
+.content a:active {
+    color: #e74c3c;
+}
+
+#bottom-banner {
+    background-color: #c0392b;
+    color: #ecf0f1;
+    font-size: 10px;
+    padding: 3vh 15vw;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5vh;
+    bottom: 0;
+}
+
+#bottom-banner a,
+#bottom-banner a:visited,
+#bottom-banner a:active {
+    color: #ecf0f1;
+    transition-duration: .3s;
+}
+
+#bottom-banner a:hover {
+    color: #e74c3c;
+}
+
+@media (max-width: 1000px) {
+    #bb0,
+    #bb1,
+    #bb2,
+    #bb3 {
+        width: 25vw;
+    }
+}
+
 @media (max-width: 640px) {
     .nav-item {
-        padding: 2% 2.5% 2% 2.5%;
+        padding: 3% 2.5%;
         width: 20%;
         font-size: 12px;
+        vertical-align: middle;
     }
-    .home-slide1, .home-slide2 {
+    #nav-bottom {
+        display: table;
+        table-layout: fixed;
+    }
+    .home-slide1,
+    .home-slide2 {
         height: 100%;
-        background-size: cover;
     }
     .slide-txt {
         font-size: 30px;
     }
+    .content h1 {
+        font-size: 25px;
+    }
     .content p {
-        padding: 0 5% 0 5%;
-        font-size: 20px;
+        padding: 0 10vw;
+        font-size: 15px;
+    }
+    #bottom-banner {
+        padding: 3vh 10vw;
+        font-size: 7px;
     }
 }
