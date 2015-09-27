@@ -39,8 +39,8 @@ a {
     display: table-cell;
     transition-duration: .3s;
     cursor: pointer;
-    width: 20%;
-    padding: 3% 2.5%;
+    width: 20vh;
+    padding: 3vh 2.5vh;
 }
 
 .nav-item > a:hover,
@@ -56,15 +56,15 @@ a {
 }
 
 #bb0 {
-    width: 220px;
+    width: 245px;
 }
 
 #bb1 {
-    width: 285px;
+    width: 250px;
 }
 
 #bb2 {
-    width: 240px;
+    width: 245px;
 }
 
 #bb3 {
