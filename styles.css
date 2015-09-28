@@ -214,6 +214,12 @@ textarea {
     outline: none;
 }
 
+.cover {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
 @media (max-width: 1000px) {
     #bb0,
     #bb1,
