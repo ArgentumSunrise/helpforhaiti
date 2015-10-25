@@ -92,18 +92,18 @@ a {
 }
 
 #home-slide1 {
-    background-image: url(imgs/syria-refugees.jpg);
-    /* source http://crooksandliars.com/files/primary_image/15/09/syria-refugees.jpg */
+    background-image: url(imgs/poverty_haiti.jpg);
+    /* source https://mindset30.files.wordpress.com/2008/04/poverty_haiti.jpg */
 }
 
 #home-slide2 {
-    background-image: url(imgs/syrian-war.jpg)
-    /* source http://i.huffpost.com/gen/1346729/images/o-SYRIA-WAR-facebook.jpg */
+    background-image: url(imgs/haitian_boy.jpg)
+    /* source http://www.care.org/sites/default/files/image/HTI_2013_KH_1584_0.jpg */
 }
 
 #home-slide3 {
-    background-image: url(imgs/syria-refugees2.jpg);
-    /* source http://graphics8.nytimes.com/packages/images/multimedia/bundles/projects/2013/RefugeeStory/ayriakurdrefs003.jpg */
+    background-image: url(imgs/starving_children.jpg);
+    /* source http://fmscblog.com/wp-content/uploads/2013/10/DSC_2182.jpg */
 }
 
 .cover {
