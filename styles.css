@@ -2,11 +2,11 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200);
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 ::selection {
-    background: #e74c3c;
+    background: #3498db;
 }
 
 ::-moz-selection {
-    background: #e74c3c;
+    background: #3498db;
 }
 
 * {
@@ -35,7 +35,7 @@ a {
 }
 
 #nav {
-    background-color: #c0392b;
+    background-color: #3498db;
     color: #ecf0f1;
     font-family: 'Raleway', sans-serif;
     width: 100vw;
@@ -64,7 +64,7 @@ a {
 .border-bottom {
     height: 1.5vh;
     display: table-cell;
-    background-color: #e74c3c;
+    background-color: #3498db;
     opacity: 0;
 }
 
@@ -131,7 +131,7 @@ a {
 }
 
 #home-slide1 h1 span {
-    color: #e74c3c;
+    color: #3498db;
 }
 
 .content {
@@ -142,7 +142,7 @@ a {
 .content h1 {
     font-size: 50px;
     margin-bottom: 4vh;
-    color: #e74c3c;
+    color: #3498db;
     margin-top: 5vh;
     font-family: Raleway;
 }
@@ -160,20 +160,20 @@ a {
 }
 
 .content a {
-    color: #e74c3c;
+    color: #3498db;
 }
 
 .content a:visited,
 .content a:active {
-    color: #e74c3c;
+    color: #3498db;
 }
 
 #bottom-banner {
-    width: 100vh;
-    background-color: #c0392b;
+    width: 100%;
+    background-color: #3498db;
     color: #ecf0f1;
     font-size: 10px;
-    padding: 3vh 15vw;
+    padding: 25px 0;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     position: fixed;
@@ -188,11 +188,11 @@ a {
 }
 
 #bottom-banner a:hover {
-    color: #e74c3c;
+    color: #3498db;
 }
 
 .header {
-    color: #e74c3c;
+    color: #3498db;
     font-family: Raleway;
     font-size: 40px;
     padding-top: 170px;
@@ -216,7 +216,7 @@ textarea {
     margin-bottom: 20px;
     width: 75%;
     display: block;
-    border: 1px solid #c0392b;
+    border: 1px solid #3498db;
 }
 
 textarea {
@@ -226,7 +226,7 @@ textarea {
 #submit {
     padding: 25px 100px;
     font-size: 15px;
-    background-color: #c0392b;
+    background-color: #3498db;
     box-shadow: none;
     border: 0;
     font-family: Source Sans Pro;
