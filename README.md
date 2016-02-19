@@ -7,4 +7,4 @@ Haiti is mired in poverty. Its people are starving and dying, and many of them l
 
 > \-Jean Bertrand Aristide
 
-Haiti needs our help. And we need to be strong enough to give it.
+Haiti needs our help. And we need to be strong enough to give it. Donate now.
